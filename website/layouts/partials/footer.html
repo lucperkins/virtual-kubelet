@@ -1,12 +1,16 @@
 {{- $year := now.Year}}
-<footer class="footer has-background-black">
-  <div class="has-text-centered">
-    <img class="is-footer-logo" src="https://raw.githubusercontent.com/cncf/artwork/master/virtualkubelet/icon/white/virtualkubelet-icon-white.png">
+<footer class="footer has-background-black has-text-centered">
+  <img class="is-footer-logo" src="https://raw.githubusercontent.com/cncf/artwork/master/virtualkubelet/icon/white/virtualkubelet-icon-white.png">
 
-    <br /><br />
+  <br /><br />
 
-    <p class="is-size-5 is-size-6-mobile has-text-grey-lighter has-text-weight-light">
-      &copy; {{ $year }} The Virtual Kubelet authors
-    </p>
-  </div>
+  <p class="is-size-5 is-size-6-mobile has-text-grey-lighter has-text-weight-light">
+    &copy; {{ $year }} The Virtual Kubelet authors
+  </p>
+  
+  <br />
+
+  <p class="has-text-grey-lighter has-text-weight-light">
+    &copy; {{ $year }} The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks.<br />For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage">Trademark Usage</a> page.
+  </p>
 </footer>
